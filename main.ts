@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    if (min < 192) {
+    if (min > 0) {
         min += -1
     }
 })
